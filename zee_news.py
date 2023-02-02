@@ -24,6 +24,7 @@ def zee_news_data():
     return data_to_send
 
 def more_news():
+
     file = open("C:/Users/jaind/PycharmProjects/webscrap3/latest-news", mode='r')
     data = file.read()
     MORE_NEWS_SELECTOR = "body > div.container.catergory-section-container > div > div.col-md-9 > div.more-news-section"
